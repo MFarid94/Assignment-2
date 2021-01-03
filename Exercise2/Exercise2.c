@@ -7,6 +7,7 @@
 
 #include<stdio.h>
 
+/* A function to check if a character is alphabet or not */
 void check_alphabet(char character){
 	if((character >= 'a' && character <= 'z')||(character >= 'A' && character <= 'Z')){
 		printf("Character is an alphabet");
