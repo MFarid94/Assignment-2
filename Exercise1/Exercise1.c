@@ -7,6 +7,7 @@
 
 #include<stdio.h>
 
+/* Prototype of cube function */
 int cube(int num);
 
 int main(void){
@@ -21,7 +22,7 @@ int main(void){
 	return 0;
 }
 
-
+/* A function to cube a given number */
 int cube(int num){
 	return num*num*num;										/* Cubing the passed value */
 }
